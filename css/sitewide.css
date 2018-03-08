@@ -1,0 +1,145 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/* 
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;		
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+body {
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: white;
+}
+
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area. 
+	If you have more than one container, you are probably doing
+	something wrong. 	
+*/
+.container {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 90%;
+	max-width: 1200px;
+	padding: 2em;
+	border: 4px double #00B7FF;
+
+
+}
+.container{
+	position:relative;
+}
+ 
+ /*bottom right text */
+ .text-block {
+ 	position: absolute;
+ 	bottom: 20px;
+ 	right:20px;
+ 	background color: black;
+ 	color: white;
+ 	padding-left: 20px
+ 	padding-right: 20px;
+ }
+.tracked-caps{
+	text-transofrm: lowercase;
+	letter-spacing:4px;
+}
+
+.run-in{
+	font-size:14px;
+	letter-spacing:3px;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#000;
+
+}
+img{
+max-width:100%;}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.black_bg 
+{
+    background-color: black;
+    padding: 3px; /*add this if you want a bit of space around the text*/
+}
+
+.container {
+    width: 40%;
+    height: 40%;
+    background: black;
+    margin: 0 auto;
+}
+.container img.wide {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+.container img.tall {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+}​
+body {
+    background-image: "img/broken.jpg";
+    background-repeat: no-repeat;
+}
+
+ul{
+	text-align: center;
+	line-height: 22px;
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+
+
+#location{
+	text-align: center;
+	font-size: 15px;
+
+	}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.portrait {
+    height: 80px;
+    width: 30px;
+}
+
+.landscape {
+    height: 30px;
+    width: 80px;
+}
